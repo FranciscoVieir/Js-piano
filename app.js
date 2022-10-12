@@ -1,7 +1,6 @@
 const pianoKeys = document.querySelectorAll('.key');
 
 function playSound(newUrl) {
-  console.log(newUrl)
   new Audio(newUrl).play()
 }
 
